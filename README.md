@@ -1,2 +1,23 @@
-# LeetCode-Practise
-Doing some practise on Leetcode to sharpen my skills.
+# LeetCode Solutions
+
+My solutions to LeetCode problems, worked through using the
+[NeetCode roadmap](https://neetcode.io/roadmap) to rebuild my DSA fundamentals.
+
+## How it's organised
+Solutions are grouped by topic, following the NeetCode roadmap. Each problem
+has its own folder containing:
+- `solution.py` — my solution
+- `README.md` — the problem, my approach and the complexity.
+
+## Progress
+
+### Arrays & Hashing
+- [x] Contains Duplicate
+- [x] Valid Anagram
+- [x] Two Sum
+- [ ] Group Anagrams
+- [x] Top K Frequent Elements
+- [ ] Encode and Decode Strings
+- [ ] Product of Array Except Self
+- [ ] Valid Sudoku
+- [ ] Longest Consecutive
