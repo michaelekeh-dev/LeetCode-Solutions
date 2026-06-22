@@ -1,0 +1,23 @@
+class Solution:
+
+    def encode(self, strs: List[str]) -> str:
+        s = ""
+
+        for word in strs:
+            s += str(len(word)) + ":" + word
+            
+        return s
+            
+      
+    def decode(self, s: str) -> List[str]:
+        decoded_list = []
+        i = 0
+        
+        while i < len(s):
+            colon_index = s.find(":", i)
+            length = int(s[i:colon_index])
+            word = s[colon_index + 1 : colon_index + 1 + length]
+            decoded_list.append(word)
+            i = colon_index + 1 + length
+            
+        return decoded_list
