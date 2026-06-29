@@ -15,10 +15,10 @@ has its own folder containing:
 - [x] Contains Duplicate
 - [x] Valid Anagram
 - [x] Two Sum
-- [ ] Group Anagrams
+- [x] Group Anagrams
 - [x] Top K Frequent Elements
-- [ ] Encode and Decode Strings
-- [ ] Product of Array Except Self
-- [ ] Valid Sudoku
+- [x] Encode and Decode Strings
+- [x] Product of Array Except Self
+- [x] Valid Sudoku
 - [ ] Longest Consecutive
 
