@@ -6,5 +6,4 @@ Given an integer x, return true if x is a palindrome, and false otherwise.
 
 ## Solution
 
-Nice and simple question. I converted the integer into a string allowing me to compare it with its reversed version [::-1] which confirms if its a palindrone or not.
-
+I stripped the string down to just its alphanumeric characters and lowercased them, then compared that cleaned version against its reverse [::-1] which confirms if its a palindrome or not.
